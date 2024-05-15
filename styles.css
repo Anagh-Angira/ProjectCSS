@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body {
+    background-color: rgb(247, 235, 220);
+}
+
+nav {
+    width: 100%;
+    /* overflow-x: none; */
+    padding-right: 2rem;
+}
+
+
+#navlist {
+    width: 100%;
+    padding: 20px;
+    /* margin-left: 15px;
+    margin-right: 15px; */
+    list-style-type: none;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#navlist li a {
+    text-decoration: none;
+    color: azure;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: none;
+    
+}
+
+#firtPara {
+    font-size: 2.2rem;
+    color: antiquewhite
+}
+
+.navCont {
+    width: 100vw;
+    background-color: rgb(136, 163, 216);
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+#navitems {
+    display: flex;
+    gap: 40px
+    
+}
+.footerBox {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    
+
+}
+.footerBox p {
+    color: azure;
+    font-size: 1.9rem;
+}
+.contentBox {
+    width: 70%;
+    margin: auto;
+    /* border: 1px solid gray; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 3rem;
+    box-shadow: 3px 3px 36px black;
+}
+.rightBox {
+    position: relative;
+    overflow: hidden;
+}
+.item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#img1, #img2 {
+    width: 250px;
+    border-radius: 20px;
+    transition: all 0.4s linear 0s;
+}
+#img1:hover {
+    transform: scale(1.1);
+}
+#img2:hover {
+    transform: scale(1.1);
+}
+.leftBox {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.leftBox h2{
+    font-size: 2rem;
+}
+.ingBox {
+    font-size: 1.3rem;
+}
+recipeBox {
+    font-size: 1.1rem;
+}
+/* .rightBox .overlay  {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(244, 196, 196);
+} */
